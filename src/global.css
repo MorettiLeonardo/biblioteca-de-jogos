@@ -1,0 +1,55 @@
+body {
+  place-items: start;
+  padding: 0 4rem;
+  background-color: #212121;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+}
+
+input, button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  transition: border-color 0.25s;
+  color: #eee;
+}
+
+button {
+  cursor: pointer;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.games > div {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+  height: 8rem;
+  margin-top: 2rem;
+  width: 28rem;
+}
+
+.games img {
+  height: 100%;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.games h2 {
+  margin: 0;
+}
